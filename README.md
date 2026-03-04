@@ -2,6 +2,8 @@
 
 Serde serializer for converting Rust types into Typst runtime values (`typst::foundations::Value`).
 
+I am open to pull requests, however, the intent of the lib is to be very simple so I consider this feature complete.
+
 ---
 
 ## Features
