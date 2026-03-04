@@ -1,0 +1,20 @@
+[package]
+name = "typst_serde"
+version = "0.1.0"
+edition = "2024"
+description = "Serde serializer for converting Rust types into Typst foundation values."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Isaac-Duarte/typst_serde"
+homepage = "https://github.com/Isaac-Duarte/typst_serde"
+documentation = "https://docs.rs/typst_serde"
+readme = "README.md"
+keywords = ["typst", "serde", "serialization"]
+categories = ["encoding"]
+
+[dependencies]
+serde = "1"
+typst = "0.14"
+
+[dev-dependencies]
+serde_json = "1"
+serde_bytes = "0.11"
